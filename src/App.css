@@ -1,38 +1,109 @@
 .App {
   text-align: center;
 }
+body{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color:  rgba(238, 130, 238, 0.25);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*header{*/
+/*  width: 100%;*/
+/*  height: 10vh;*/
+/*  background-color: rgba(238, 130, 238, 0.75);*/
+/*  border-radius: 0 0 20px 20px;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+.box-header{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+}
+.linkText{
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkLogo:hover{
+  color:red;
 }
 
-.App-link {
-  color: #61dafb;
+.linkLogo:hover::after{
+  content: "🏠";
+  scale: 1.1;
+  position: relative;
+  left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-project-item{
+  width: 80%;
+  height: 20vh;
+  background-color:  rgba(203, 200, 200, 0.27);
+  border: black solid 2px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 4px;
+}
+.img-my-foto{
+  border: black solid 2px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.box-biography{
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  background-color: rgba(203, 200, 200, 0.27);
+  margin-left: 10%;
+  border: gray 2px solid;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+.box-one-product{
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: rgba(203, 200, 200, 0.27);
+  width: 80%;
+  height: 80vh;
+  margin:4px auto;
+}
+.navBar{
+  display: block;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardProjectItem:hover{
+  background-color: #f6f6f5;
+  scale: 1.01;
 }
