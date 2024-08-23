@@ -47,7 +47,7 @@ export const project=[
         description:"игрф кликер с IT технологиями",
         src:fotoSimulatorTechnology,
         technology:["React","zustand","styled-component"],
-        srcOpenProject:"https://yura.mintscale.ru/",
+        srcOpenProject:"https://zustanttreninggame.vercel.app/",
         srcMassOpen:[
             fotoSimulatorTechnologyMass1,
             fotoSimulatorTechnologyMass3,
@@ -70,11 +70,11 @@ export const project=[
         ]
     },{
         id:4,
-        title:"Кликер",
+        title:"Онлайн магазин",
         description:"игра кликер на быстрое нажатие клавиш",
         src:fotoSimulatorClicker,
         technology:["React","MUI",],
-        srcOpenProject:"https://yura.mintscale.ru/",
+        srcOpenProject:"https://mystore-ashen.vercel.app/",
         srcMassOpen:[fotoSimulatorClickerMass1,fotoSimulatorClicker]
     },
 ]
